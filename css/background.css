@@ -1,0 +1,9 @@
+body{
+    width: 20px;
+    height: 20px;
+}
+div{
+    width: 20px;
+    height: 20px;
+    background: red url(C:\\Users\\Administrator\\Pictures\\dog.jpg);
+}
