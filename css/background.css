@@ -1,9 +1,12 @@
-body{
-    width: 20px;
-    height: 20px;
-}
 div{
-    width: 20px;
-    height: 20px;
-    background: red url(C:\\Users\\Administrator\\Pictures\\dog.jpg);
+    width: 1000px;
+    height: 1000px;
+    background-color: greenyellow;
+    background-image: url(/../meterial/picture/dog.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size:contain;
+}
+body{
+    background-color: red;
 }
