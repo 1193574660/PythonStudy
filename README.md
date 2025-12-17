@@ -2,7 +2,7 @@
 for studying python
 
 ---
-# *Day 1*
+# *Day1*
 
 ## 什么是爬虫
 爬虫——网络爬虫，即模仿人去请求页面、访问网站等操作，并获取数据的一个网络技术。
@@ -44,3 +44,23 @@ for studying python
 ---
 
 
+# *Day2*
+
+## Normal request manner
+- **get :** 从服务器上拿数据
+- **post :** 向服务器发送数据
+
+具体使用**post** 还是**get**，从网站上去看
+
+## 请求头常见参数
+
+* User-Agent : 浏览器名称。未定制则认为是```Python```
+* Refer : 表明当前的请求是从哪个URL过来的
+* Cookie : 第一次请求网站时，会返回一个Cookie。用来识别用户。
+
+## 常见响应状态码
+https://m.runoob.com/http/http-status-codes.html
+
+## Chrome 抓包工具
+
+---
