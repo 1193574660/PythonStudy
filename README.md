@@ -64,3 +64,29 @@ https://m.runoob.com/http/http-status-codes.html
 ## Chrome 抓包工具
 
 ---
+
+# *Day3*
+
+## urllib 库
+
+### urlopen函数
+所有网络请求都被集中到```urllib.request```模块中。
+
+```
+from urllib import request
+resp = request.urlopen('http://wwww.baidu.com')
+print(resp.read())
+```
+
+返回值 : 
+* read : 读取字符个数
+* readline ： 读取一行
+* readlines ： 读取目标行数
+* getcode ： 获取状态码
+
+### urlretrieve函数
+可以将网页上的文件下载到本地
+```
+from urllib import request
+request.urlretrieve('http://www.baidu.com','FileName')   
+```
