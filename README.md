@@ -90,3 +90,19 @@ print(resp.read())
 from urllib import request
 request.urlretrieve('http://www.baidu.com','FileName')   
 ```
+
+# *Day4*
+
+## urlencode 函数
+将字符串进行编码
+
+例如 ```url = 'http://wwww.baidu.com/s?wd=刘德华'```是无法被识别请求的，需要将刘德华进行转码
+
+
+## pasre_qs 函数
+对编码后的字符进行还原，例如将```刘德华```转换的字符串```%E5%88%98%E5%BE%B7%E5%8D%8E```转换回```刘德华```
+
+
+## urlparse 和 urlsplit
+解析url
+两个函数类似，有一个地方的区别是：urlsplit 的返回值缺少一个params
